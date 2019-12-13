@@ -1,3 +1,10 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500&display=swap');
+/* Montserrat */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+/* Roboto */
 /*
   ========================================
   Eric Meyer's Reset
@@ -133,9 +140,400 @@ table {
   border-spacing: 0;
 }
 
+
+
+
+
+
+
 .container {
   width: 1000px;
   margin: 0 auto;
 }
 
-/*# sourceMappingURL=style.css.map */
+
+
+
+
+
+
+
+
+
+/* general classes */
+html {
+  font-size: 16px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.website-wrapper {
+  max-width: 1200px;
+  padding: 0px 1.875rem;
+  margin: 0 auto;
+  /* line-height: 25px; */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* general */
+.gallary-padding {
+  padding: 1.25rem 0px;
+}
+
+.responsive-img {
+  width: 100%;
+}
+
+/* general */
+
+
+/* website header*/
+.website-header {
+  background-color: hsl(45, 15%, 95%);
+  padding: 0.789rem 1.25rem .5rem 1.25rem;
+  color: hsl(215, 34%, 21%);
+  line-height: 1.5625rem;
+  gap: normal;
+  border-bottom: .3125rem solid #45B5CC;
+}
+a {
+  text-decoration: none;
+  color: hsl(215, 34%, 21%);
+}
+
+nav div a {
+  padding-right: 12px;
+  font-size: 0.875;
+  text-transform: uppercase;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.small-copyright {
+  font-size: .625rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header changes */
+.header-flex{
+    justify-content: space-between;
+}
+ 
+.hidden-hamberger{
+  display: none;
+}
+
+label{
+  font-size: 20px;
+}
+input[type=checkbox]{
+  display: none;
+}
+.mobile-menu{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+
+/* hero section */
+.hero-background {
+  background-color: hsl(215, 34%, 21%);
+  color: white;
+  padding: 3.75rem 0px;
+  /* change the color */
+}
+
+.hero-flex-1 {
+  width: 60%;
+}
+
+.hero-flex-2 {
+  width: 30%;
+  background-color: #3DA3B8;
+  color: white;
+  border-radius: .25rem;
+  -webkit-border-radius: .25rem;
+  -moz-border-radius: .25rem;
+  -ms-border-radius: .25rem;
+  -o-border-radius: .25rem;
+}
+
+.hero-heading {
+  font-size: 2rem;
+  font-family: Montserrat;
+  font-weight: 400;
+  text-align: center;
+  text-transform: capitalize;
+  padding-bottom: 1.875rem;
+  line-height: 1.6;
+}
+
+.hero-para {
+  font-size: 1.0625rem;
+  font-family: Roboto;
+  font-weight: 200;
+  text-align: justify;
+  line-height: 1.2;
+}
+
+/* request box*/
+.req-header {
+  text-transform: uppercase;
+  padding: 1.25rem .625rem;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.req-sub-container {
+  background-color: #45B5CC;
+  padding: 1.25rem .625rem;
+}
+
+.req-sub-para {
+  font-size: .875rem;
+  padding: .625rem 0px;
+  text-transform: capitalize;
+  font-family: Roboto;
+}
+
+.req-sub-container select {
+  width: 100%;
+  padding: .3rem;
+  font-size: .75rem;
+  background-image: linear-gradient(to bottom, #9FD9E3, #EFEFEF);
+  color: hsl(215, 34%, 21%);
+  text-transform: uppercase;
+}
+
+input {
+  width: 100%;
+  padding: .3rem;
+  background-image: linear-gradient(to bottom, #9FD9E3, #EFEFEF);
+}
+
+.submit-btn {
+  text-align: right;
+  margin: 1.25rem .625rem;
+}
+
+.btn {
+  width: 5rem;
+  height: 1.875rem;
+  /*text-align: center;
+  */
+  background-color: #FAB730;
+  border: none;
+  outline: none;
+  border: 1px solid yellow;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+  text-transform: uppercase;
+}
+
+/*Graphice gallary images*/
+.gallary-background-color {
+  background-color: #F3F3F3;
+  /* font-size: 0px; */
+}
+
+.gallary-heading {
+  text-align: center;
+  font-size: 1.75rem;
+  font-family: Montserrat;
+  font-weight: 300;
+  text-transform: capitalize;
+  padding: 1.25rem 0px;
+}
+
+.col-1-3 {
+  width: 24%;
+  border: 1px solid gray;
+}
+
+.view-more {
+  text-align: center;
+  padding: 2rem 0px;
+  font-size: 0.875rem;
+  font-family: Roboto;
+  text-transform: uppercase;
+  color: rgb(22, 80, 92);
+}
+
+.image-author {
+  font-size: 1.125rem;
+  padding: .9375rem .625rem .3rem .625rem;
+  text-align: center;
+}
+
+.date {
+  padding: 0px .625rem;
+  color: #3DA3B8;
+  font-size: .75rem;
+  text-align: center;
+}
+
+.view-link {
+  text-align: center;
+  padding: .625rem .625rem;
+  text-transform: uppercase;
+  font-size: .875rem;
+}
+
+hr {
+  font-size: 0px;
+  max-width: 75rem;
+  color: rgb(53, 53, 53);
+}
+
+/* team section */
+.circle-image {
+  width: 7.8125rem;
+  height: 7.8125rem;
+  /*padding: 20px 0px;
+  */
+  margin: 1.25rem 0px;
+  border-radius: 50%;
+  border: 1px solid black;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.team-member-name {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 500;
+  font-family: Roboto;
+  color: rgb(0, 0, 71);
+  padding-bottom: .625rem;
+}
+
+.project-role {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  padding: .625rem 0px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.profile-nav {
+  padding: 0.625rem 0px 1.25rem 0px;
+}
+
+.btn-center {
+  text-align: center;
+}
+
+.profile-button {
+  background-color: rgb(89, 88, 189);
+  width: 5.725rem ;
+  color: white
+}
+
+/* footer */
+.footer {
+  padding: 1.875rem 0px;
+  background-color: #0E225F;
+  text-align: center;
+  color: white;
+}
+
+.footer-title {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+
+  html {
+    font-size: 12px;
+  }
+
+  .col-1-3 {
+    width: 70%;
+    margin: 1rem 0px;
+    /* min-height: 200px; */
+  }
+
+  .hero-flex-1 {
+    width: 80%;
+    padding-bottom: 40px;
+  }
+
+  .hero-flex-2 {
+    width: 70%;
+  }
+  .visible-menu{
+    display: none;
+  }
+  .hidden-hamberger{
+    display: block;
+    cursor: pointer;
+  }
+
+.mobile-menu a{
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 2;
+  /* display: none; */
+}
+#toggle:checked + .mobile-menu{
+  display: block;
+}
+
+}
