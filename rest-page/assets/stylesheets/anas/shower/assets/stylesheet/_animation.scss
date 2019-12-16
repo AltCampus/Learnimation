@@ -1,0 +1,23 @@
+@keyframes fall {
+    from {
+        top: 1vh;
+    }
+
+    to {
+        top: 90vh;
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}

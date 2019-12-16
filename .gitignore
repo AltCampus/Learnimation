@@ -1,0 +1,8 @@
+# SASS generated files
+/assets/stylesheets/style.css
+/assets/stylesheets/style.css.map
+*.css
+*.css.map
+
+# Node generated files
+/node_modules/
