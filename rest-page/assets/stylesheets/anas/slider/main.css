@@ -1,0 +1,151 @@
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box {
+  height: 300px;
+  display: inline-block;
+  width: 300px;
+  overflow: hidden;
+  background: url("assets/media/AltImages/prashant-v1.jpg");
+  background-size: contain;
+  box-shadow: 12px 15px 34px -5px rgba(0,0,0,0.78);
+  margin: 2rem;
+}
+.hid-box {
+  top: 100%;
+  position: relative;
+  transition: all .3s ease-out;
+  background: url("assets/media/alt-old/prashant-old.jpg");
+  background-size: contain;
+  height: 100%;
+}
+
+.box:hover .hid-box{
+  top: 0;
+}
+
+/* Suraj Bhaiyya */
+
+.box-suraj {
+    background: url("assets/media/AltImages/suraj-v1.jpg");
+    background-size: contain;
+}
+
+.hid-box-suraj {
+    background: url("assets/media/alt-old/suraj-old.jpg");
+    background-size: contain;
+    bottom: 100%;
+}
+
+.box-suraj:hover .hid-box-suraj {
+    bottom: 0;
+}
+
+
+/* Ankit Bhaiyya */
+
+.box-ankit {
+    background: url("assets/media/AltImages/ankit-v1.jpg");
+    background-size: contain;
+}
+
+.hid-box-ankit {
+    background: url("assets/media/alt-old/ankit-old.jpg");
+    background-size: contain;
+    top: 0;
+    left: 100%;
+}
+
+.box-ankit:hover .hid-box-ankit {
+    left: 0;
+}
+
+/* Ravi Bhaiyya */
+
+.box-ravi {
+    background: url("assets/media/AltImages/ravi-v1.jpg");
+    background-size: contain;
+}
+
+.hid-box-ravi {
+    background: url("assets/media/alt-old/ravi-old.jpg");
+    background-size: contain;
+    top: 0;
+    right: 100%;
+}
+
+.box-ravi:hover .hid-box-ravi {
+    right: 0;
+}
+
+
+/* Suraj Shake */
+.box-suraj:active {
+	animation-name: earthquake;
+	animation-duration: 5s;
+	transform-origin:50% 50%;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.box-ankit:active {
+	animation-name: earthquake;
+    animation-duration: 2s;
+	transform-origin:50% 50%;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.box-ravi:active {
+	animation-name: earthquake;
+    animation-duration: 0.2s;
+	transform-origin:50% 50%;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.box-prashant:active {
+	animation-name: earthquake;
+    animation-duration: 0.5s;
+	transform-origin:50% 50%;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes earthquake {
+	0% { 
+        transform: translate(2px, 1px) rotate(0deg); 
+    }
+	10% { 
+        transform: translate(-1px, -2px) rotate(-1deg); 
+    }
+	20% { 
+        transform: translate(-3px, 0px) rotate(1deg); 
+    }
+	30% { 
+        transform: translate(0px, 2px) rotate(0deg); 
+    }
+	40% { 
+        transform: translate(1px, -1px) rotate(1deg); 
+    }
+	50% { 
+        transform: translate(-1px, 2px) rotate(-1deg); 
+    }
+	60% { 
+        transform: translate(-3px, 1px) rotate(0deg); 
+    }
+	70% { 
+        transform: translate(2px, 1px) rotate(-1deg); 
+    }
+	80% { 
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+	90% { 
+        transform: translate(2px, 2px) rotate(0deg); 
+    }
+	100% { 
+        transform: translate(1px, -2px) rotate(-1deg); 
+    }
+}

@@ -1,0 +1,21 @@
+h1 {
+  margin: 0
+}
+.box {
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  border: 1px solid red;
+  background: url();
+}
+.hid-box {
+  top: 100%;
+  position: relative;
+  transition: all .3s ease-in-out;
+  background: #428bca;
+  height: 100%;
+}
+
+.box:hover .hid-box{
+  top: 0;
+}

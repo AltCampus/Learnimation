@@ -1,0 +1,190 @@
+*, *::after, *::before {
+    background-color: black;
+    animation-duration: 3s !important;
+}
+
+.textcenter {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > div {
+    margin: 10px;
+    display: inline-block;
+    /* float: left */
+}
+
+.l {
+    position: relative;
+    width: 30px;
+    height: 40px;
+    border-width: 0 0 10px 10px;
+    border-style: solid;
+    border-color: red;
+}
+
+.e {
+    position: relative;
+    width: 40px;
+    height: 30px;
+    border-width: 10px 0 10px 10px;
+    border-style: solid;
+    border-color: red;
+}
+
+.e::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 20px;
+    height: 10px;
+    background: red;
+}
+
+.a {
+    position: relative;
+    width: 30px;
+    height: 40px;
+    background: black;
+    border-radius: 10px 10px 0 0;
+    border-style: solid;
+    border-color: red;
+    border-width: 10px 10px 0 10px;
+}
+
+.a::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    height: 10px;
+    width: 30px;
+    background: red;
+}
+
+.r {
+    position: relative;
+    width: 40px;
+    height: 50px;
+    border-width: 0 0 0 10px;
+    border-style: solid;
+    border-color: red;
+}
+
+.r::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 0px;
+    height: 10px;
+    width: 30px;
+    background: transparent;
+    border-radius: 0 12.5px 12.5px 0;
+    border: 10px solid red;
+}
+
+.r::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 20px;
+    width: 30px;
+    border-radius: 0 12.5px 0 0;
+    border-color: red;
+    border-style: solid;
+    border-width: 10px 10px 0 0;
+}
+
+.n {
+    position: relative;
+    height: 50px;
+    width: 30px;
+    border-style: solid;
+    border-color: red;
+    border-width: 0 10px 0 10px;
+}
+
+.n::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 58px;
+    transform-origin: 5px 14px 0;
+    transform: rotate(-43deg);
+    background: red;
+}
+
+.i {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-width: 10px 0 10px 0;
+    border-style: solid;
+    border-color: red;
+}
+
+.i::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    background: red;
+    left: 10px;
+}
+
+.m {
+    position: relative;
+    width: 30px;
+    height: 50px;
+    border-style: solid;
+    border-color: red;
+    border-width: 0 10px 0 10px;
+}
+
+.m::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    background: red;
+    left: 2px;
+    transform: rotate(-45deg);
+}
+.m::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    background: red;
+    right: 2px;
+    transform: rotate(45deg);
+}
+
+.t {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-width: 10px 0 0px 0;
+    border-style: solid;
+    border-color: red;
+}
+
+.t::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 40px;
+    background: red;
+    left: 15px;
+}
+
+.o {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: 10px solid red;
+}

@@ -1,0 +1,269 @@
+span {
+  display: inline-block;
+  position: absolute;
+}
+
+.mod-square {
+  background: orange;
+  width: 2rem;
+  height: 2rem;
+}
+
+.mod-rectangle {
+  background: #E8591C;
+  width: 3rem;
+  height: 1.5rem;
+}
+
+.mod-circle {
+  background: #7FB8B0;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.mod-triangle {
+  width: 0;
+  height: 0;
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+  border-bottom: 2rem solid #332C26;
+}
+
+.mod-half-circle {
+  background-color: #030D4F;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 0rem 2.5rem 2.5rem 0rem;
+}
+
+.mod-drop {
+  position: absolute;
+}
+
+.mod-drop img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.mod-oval {
+  width: 2rem;
+  height: 1rem;
+  background: red;
+  border-radius: 2rem/1.5rem;
+}
+
+@keyframes fall {
+  from {
+    top: 1vh;
+  }
+  to {
+    top: 90vh;
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.container {
+  position: relative;
+}
+
+.rect-1 {
+  animation-name: fall, spin;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.cir-1 {
+  left: 5vw;
+  animation-name: fall, spin;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.sq-1 {
+  left: 2vw;
+  animation-name: fall, spin;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.tri-1 {
+  left: 5vw;
+  animation-name: fall, spin;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.h-c-1 {
+  right: 7vw;
+  animation-name: fall, spin;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.drop-1 {
+  left: 10vw;
+  animation-name: fall, spin;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.oval-1 {
+  right: 6vw;
+  animation-name: fall, spin;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.rect-2 {
+  right: 8vw;
+  animation-name: fall, spin;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.cir-2 {
+  right: 15vw;
+  animation-name: fall, spin;
+  animation-duration: 2.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.h-c-2 {
+  left: 7vw;
+  animation-name: fall, spin;
+  animation-duration: 3.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.sq-2 {
+  right: 10vw;
+  background: #7B3B3B;
+  animation-name: fall, spin;
+  animation-duration: 4.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.drop-2 {
+  right: 4vw;
+  animation-name: fall, spin;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.oval-2 {
+  left: 4vw;
+  animation-name: fall, spin;
+  animation-duration: 5.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.tri-2 {
+  right: 15vw;
+  animation-name: fall, spin;
+  animation-duration: 7.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.rect-3 {
+  left: 20vw;
+  animation-name: fall, spin;
+  animation-duration: 5.9s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.cir-3 {
+  right: 25vw;
+  animation-name: fall, spin;
+  animation-duration: 1.64s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.h-c-3 {
+  left: 25vw;
+  animation-name: fall, spin;
+  animation-duration: 6.53s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.sq-3 {
+  right: 30vw;
+  animation-name: fall, spin;
+  animation-duration: 4.9s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.drop-3 {
+  right: 40vw;
+  animation-name: fall, spin;
+  animation-duration: 4.8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.oval-3 {
+  left: 50vw;
+  background: #B0254F;
+  animation-name: fall, spin;
+  animation-duration: 7.32s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.tri-3 {
+  right: 60vw;
+  animation-name: fall, spin;
+  animation-duration: 2.4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+/*# sourceMappingURL=main.css.map */
