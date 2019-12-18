@@ -1,0 +1,182 @@
+@import "reset";
+/* ====================================
+      roulette
+==================================== */
+.roulette-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 650px;
+    margin: 50px auto;
+    // border: 1px solid black;
+
+}
+.roulette-circle8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    // border: 1px solid black;
+    border-radius: 50%;
+    background-color: #54340C;
+    // transition-property: transform;
+    // transition-duration: .5s;
+    // background:linear-gradient(to bottom right, #D4AF37 50%,rgb(184, 150, 38) 50%);
+    // box-shadow: 0 0 20px 10px rgb(29, 12, 3);
+}
+.roulette-circle8:hover {
+    // transform: rotate(50deg);
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    // animation-direction: alternate ;
+}
+.roulette-circle8:active {
+    // transform: rotate(50deg);
+    animation-name: rotate;
+    animation-duration: .1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    // animation-direction: alternate ;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.roulette-circle7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97%;
+    height: 97%;
+    // border: 1px solid black;
+    border-radius: 50%;
+    background-color: #AE8057;
+    // background:linear-gradient(to bottom right, #D4AF37 50%,rgb(184, 150, 38) 50%);
+    box-shadow: 0 0 20px 10px rgb(29, 12, 3) inset;
+}
+.roulette-circle6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    // border: 1px solid black;
+    border-radius: 50%;
+    background-color: rgb(32, 28, 9);
+    // background:linear-gradient(to bottom right, #D4AF37 50%,rgb(184, 150, 38) 50%);
+    // box-shadow: 0 0 20px 10px rgb(29, 12, 3);
+}
+.roulette-circle5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97%;
+    height: 97%;
+    box-shadow: 0 0 20px 10px rgb(8, 7, 2) inset;
+    // border: 1px solid black;
+    border-radius: 50%;
+    background:conic-gradient(
+        red 00% 05%, #393939 05% 10%, red 10% 15%, #393939 15% 20%,
+        red 20% 25%, #393939 25% 30%, red 30% 35%, #393939 35% 40%,
+        red 40% 45%, #393939 45% 50%, red 50% 55%, #393939 55% 60%,
+        red 60% 65%, #393939 65% 70%, red 70% 75%, #393939 75% 80%,
+        red 80% 85%, #393939 85% 90%, red 90% 95%, #393939 95% 100%,
+        red 100% 105%, #393939 105% 110%, red 110% 115%, #393939 115% 120%,
+        red 120% 125%, #393939 125% 130%, red 130% 135%, #393939 135% 140%,
+        red 140% 145%, #393939 145% 150%, red 150% 155%, #393939 155% 160%,
+        red 160% 165%, #393939 165% 170%, red 170% 175%, #393939 175% 180%,
+        );
+    // box-shadow: 0 0 20px 10px rgb(29, 12, 3);
+}
+.roulette-circle4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    height: 65%;
+    // border: 1px solid black;
+    border-radius: 50%;
+    background-color: rgb(32, 28, 9);
+    // background:linear-gradient(to bottom right, #D4AF37 50%,rgb(184, 150, 38) 50%);
+    // box-shadow: 0 0 20px 10px rgb(29, 12, 3);
+}
+.roulette-circle3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97%;
+    height: 97%;
+    box-shadow: 0 0 20px 10px rgb(8, 7, 2) inset;
+    // border: 1px solid black;
+    border-radius: 50%;
+    background:conic-gradient(
+        red 00% 05%, #393939 05% 10%, red 10% 15%, #393939 15% 20%,
+        red 20% 25%, #393939 25% 30%, red 30% 35%, #393939 35% 40%,
+        red 40% 45%, #393939 45% 50%, red 50% 55%, #393939 55% 60%,
+        red 60% 65%, #393939 65% 70%, red 70% 75%, #393939 75% 80%,
+        red 80% 85%, #393939 85% 90%, red 90% 95%, #393939 95% 100%,
+        red 100% 105%, #393939 105% 110%, red 110% 115%, #393939 115% 120%,
+        red 120% 125%, #393939 125% 130%, red 130% 135%, #393939 135% 140%,
+        red 140% 145%, #393939 145% 150%, red 150% 155%, #393939 155% 160%,
+        red 160% 165%, #393939 165% 170%, red 170% 175%, #393939 175% 180%,
+        );
+    // background:linear-gradient(to bottom right, #D4AF37 50%,rgb(184, 150, 38) 50%);
+    // box-shadow: 0 0 20px 10px rgb(29, 12, 3);
+}
+.roulette-circle2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 45%;
+    // border: 1px solid black;
+    border-radius: 50%;
+    background-color: #E5CB52;
+    // box-shadow: 0 0 20px 10px rgb(29, 12, 3);
+}
+.roulette-circle1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97%;
+    height: 97%;
+    // border: 1px solid black;
+    border-radius: 50%;
+    background:conic-gradient( #704A23 0% 25%,rgb(102, 68, 34) 25% 50%,rgb(117, 73, 30) 50% 75%,rgb(92, 59, 27) 75% 100%,);
+    // background:linear-gradient(to bottom right, #D4AF37 50%,rgb(184, 150, 38) 50%);
+    // box-shadow: 0 0 20px 10px rgb(29, 12, 3);
+}
+.roulette-child-cirlce{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 30%;
+    // border: 1px solid black;
+    border-radius: 50%;
+    background-color: rgb(32, 28, 9);
+    box-shadow: 0 0 10px  rgb(8, 7, 2) inset;
+}
+.roulette-child-cirlce1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 70%;
+    // border: 1px solid black;
+    border-radius: 50%;
+    background-color: rgb(32, 28, 9);
+    box-shadow: 0 0 10px  rgb(8, 7, 2) inset;
+}

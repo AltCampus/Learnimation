@@ -1,0 +1,91 @@
+@import "reset";/* ====================================
+shield
+==================================== */
+.shield-container {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 50%;
+height: 650px;
+margin: 50px auto;
+// border: 1px solid black;
+// background-color: #D0B061;
+// border-radius: 50%;
+}
+.shield-circle-6 {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+// border: 1px solid black;
+border-radius: 50%;
+background:linear-gradient(to bottom right, #D4AF37 50%,rgb(184, 150, 38) 50%);
+box-shadow: 0 0 20px 10px rgb(29, 12, 3);
+
+}
+.shield-circle-5 {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 90%;
+height: 90%;
+// border: 1px solid black;
+border-radius: 50%;
+background-image: linear-gradient(
+  135deg ,
+  rgb(102, 45, 15) 0% 10% ,
+  #58260B 10% 20%,
+  rgb(102, 45, 15) 20% 30%,
+  #58260B 30% 40%,
+  rgb(102, 45, 15) 40% 50% ,
+  #58260B 50% 60%,
+  rgb(102, 45, 15) 60% 70%,
+  #58260B 70% 80%,
+  rgb(102, 45, 15) 80% 90%,
+  #58260B 90% 100%
+  );
+}
+.shield-circle-4 {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 45%;
+height: 45%;
+// border: 1px solid black;
+border-radius: 50%;
+background:linear-gradient(to bottom right, #D4AF37 50%,rgb(184, 150, 38) 50%);
+box-shadow: 0 0 10px 5px rgb(29, 12, 3);
+}
+.shield-circle-3 {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 90%;
+height: 90%;
+// border: 1px solid black;
+border-radius: 50%;
+background: conic-gradient(#371905 0% 33%, #53270a 33% 66%, #461c01 66% 100%);
+}
+.shield-circle-2 {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 30%;
+height: 30%;
+// border: 1px solid black;
+border-radius: 50%;
+background:linear-gradient(to bottom right, #D4AF37 50%,rgb(184, 150, 38) 50%);
+box-shadow: 0 0 10px 5px rgb(29, 12, 3);
+}
+.shield-circle-1 {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 85%;
+height: 85%;
+// border: 1px solid black;
+border-radius: 50%;
+background: conic-gradient(#C8C8C8 0% 25%, rgb(175, 166, 166) 25% 50%, rgb(163, 151, 151) 50% 75%, rgb(160, 138, 138) 75% 100%);
+}
+

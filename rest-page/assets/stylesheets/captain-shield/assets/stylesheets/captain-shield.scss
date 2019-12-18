@@ -1,0 +1,73 @@
+@import "reset";
+/* ====================================
+      captain-america-shield
+==================================== */
+.captain-america-shield-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 650px;
+    margin: 100px auto;
+    // border:1px solid black;
+    // border-radius: 50%;
+}
+.captain-america-shield-circle-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    // border: 1px solid black;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom right , red 50%,rgb(223, 24, 24) 50%);
+    box-shadow: 20px 20px 30px  rgb(56, 1, 1);
+
+}
+.captain-america-shield-circle-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    // border: 1px solid black;
+    border-radius: 50%;
+    background-image:linear-gradient(to bottom right,white 50%,rgb(230, 223, 223) 50%);
+
+}
+.captain-america-shield-circle-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 70%;
+    // border: 1px solid black;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom right , red 50%,rgb(223, 24, 24) 50%);
+    // box-shadow: 0 0 20px 10px rgb(29, 12, 3);
+
+}
+.captain-america-shield-circle-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    // border: 1px solid black;
+    border-radius: 50%;
+    background-image:linear-gradient(to bottom right,#334692 50%,#293a7c 50%);
+    // box-shadow: 0 0 20px 10px rgb(29, 12, 3);
+    // clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.captain-america-shield-circle-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    // border: 2px solid black;
+    // border-radius: 50%;
+    background-image:linear-gradient(to bottom right,white 50%,rgb(230, 223, 223) 50%);
+    // box-shadow: 0 0 20px 10px rgb(29, 12, 3);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}

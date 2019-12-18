@@ -1,0 +1,100 @@
+@import "reset";
+
+
+/* ====================================
+      car
+====================================*/
+.car-path-container {
+    width:1000px ;
+    margin: 100px auto;
+  
+}
+.car-container {
+    box-sizing: border-box;
+    margin: 100px 20px;
+    width:390px;
+    height: 150px;
+    // border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(13,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-template-areas: 
+    "car-back-top car-body car-body car-body car-body car-body car-body car-body car-body car-body car-body car-body car-front-top"
+    "car-back-mid car-body car-body car-body car-body car-body car-body car-body car-body car-body car-body car-body car-front-mid"
+    "car-back-bot car-body car-body car-body car-body car-body car-body car-body car-body car-body car-body car-body car-front-bot"
+
+    // "car-back-mid car-body car-body car-body car-door1 car-door1 car-body car-door2 car-door2 car-body car-body car-body car-front-mid"
+    // "car-back-bot car-body car-wheel1 car-wheel1 car-door1 car-door1 car-body car-door2 car-door2 car-wheel2 car-wheel2 car-body car-front-bot"
+    ".             .       car-wheel1 car-wheel1  .         .         .         .        .        car-wheel2 car-wheel2 .        .           "
+    ".             .       car-wheel1 car-wheel1  .         .         .         .        .        car-wheel2 car-wheel2 .        .           "
+
+    ;
+
+}
+.car-back-top {
+    grid-area: car-back-top;
+    background-color: green;
+    // border: 1px solid black;
+    // border-top-left-radius: 100%;
+}
+.car-back-mid {
+    grid-area: car-back-mid;
+    background: green;
+}
+.car-back-bot {
+    grid-area: car-back-bot;
+    background: green;
+    // border-bottom-left-radius: 100%;
+}
+.car-body {
+    grid-area: car-body;
+    background-color: black;
+}
+
+.car-wheel1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: car-wheel1;
+    background: rgb(15, 4, 4);
+    border-radius: 50%;
+}
+.car-wheel2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: car-wheel2;
+    background: rgb(15, 4, 4);
+    border-radius: 50%;
+}
+
+.car-front-top {
+    grid-area: car-front-top;
+    background-color: orangered;
+    border-top-right-radius: 100%;
+}
+.car-front-mid {
+    grid-area: car-front-mid;
+    background: orangered;
+}
+.car-front-bot {
+    grid-area: car-front-bot;
+    background: orangered;
+    border-bottom-right-radius:100% ;
+}
+.car-wheel-border {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background:conic-gradient(
+        red 00% 05%, #393939 05% 10%, red 10% 15%, #393939 15% 20%,
+        red 20% 25%, #393939 25% 30%, red 30% 35%, #393939 35% 40%,
+        red 40% 45%, #393939 45% 50%, red 50% 55%, #393939 55% 60%,
+        red 60% 65%, #393939 65% 70%, red 70% 75%, #393939 75% 80%,
+        red 80% 85%, #393939 85% 90%, red 90% 95%, #393939 95% 100%,
+        red 100% 105%, #393939 105% 110%, red 110% 115%, #393939 115% 120%,
+        red 120% 125%, #393939 125% 130%, red 130% 135%, #393939 135% 140%,
+        red 140% 145%, #393939 145% 150%, red 150% 155%, #393939 155% 160%,
+        red 160% 165%, #393939 165% 170%, red 170% 175%, #393939 175% 180%,
+        );
+}
