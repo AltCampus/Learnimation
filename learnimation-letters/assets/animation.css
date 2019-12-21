@@ -1,0 +1,459 @@
+/* L */
+
+.l {
+    animation-name: letter-L;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+    @keyframes letter-L {
+        0% {
+            width: 0px;
+            height: 0px;
+            border-width: 0;
+        }
+
+        50% {
+            width: 30px;
+            height: 40px;
+            border-width: 0 0 10px 10px;
+        }
+
+        100% {
+            width: 0px;
+            height: 0px;
+            border-width: 0;
+        }
+    }
+
+/* E */
+
+.e {
+    animation-name: letter-e;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+    @keyframes letter-e {
+        0% {
+            width: 0px;
+            height: 0px;
+            border-width: 0;
+        }
+
+        50% {
+            width: 40px;
+            height: 30px;
+            border-width: 10px 0 10px 10px;
+        }
+
+        100% {
+            width: 0px;
+            height: 0px;
+            border-width: 0;
+        }
+    }
+
+.e::before {
+    animation-name: letter-e-before;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+    @keyframes letter-e-before {
+        0% {
+            width: 0px;
+            height: 0px;
+        }
+
+        50% {
+            width: 20px;
+            height: 10px;
+
+        }
+
+        100% {
+            width: 0px;
+            height: 0px;
+        }
+    }
+
+
+/* A */
+
+.a {
+    animation-name: letter-a;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+    @keyframes letter-a {
+        0% {
+            width: 0px;
+            height: 0px;
+            border-width: 0;
+        }
+
+        50% {
+            width: 30px;
+            height: 40px;
+            border-width: 10px 10px 0 10px;
+
+        }
+
+        100% {
+            width: 0px;
+            height: 0px;
+            border-width: 0;
+        }
+    }
+
+.a::before {
+    animation-name: letter-a-before;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite; 
+}
+
+    @keyframes letter-a-before {
+        0% {
+            width: 0px;
+            height: 0px;
+        }
+
+        50% {
+            width: 30px;
+            height: 10px;
+        }
+
+        100% {
+            width: 0px;
+            height: 0px;
+        }
+    }
+
+/* R */
+.r {
+    animation-name: letter-r;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+    @keyframes letter-r {
+        0% {
+            width: 0px;
+            height: 0px;
+            border-width: 0;
+        }
+
+        50% {
+            width: 40px;
+            height: 50px;
+            border-width: 0 0 0 10px;
+
+        }
+
+        100% {
+            width: 0px;
+            height: 0px;
+            border-width: 0;
+        }
+    }
+
+.r::before {
+    animation-name: letter-r-before;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite; 
+}
+
+    @keyframes letter-r-before {
+        0% {
+            width: 0px;
+            height: 0px;
+            border-radius: 0;
+            border: 0px solid black;
+
+        }
+
+        50% {
+            width: 30px;
+            height: 10px;
+            border-radius: 0 12.5px 12.5px 0;
+            border: 10px solid red;
+        }
+
+        100% {
+            width: 0px;
+            height: 0px;
+            border-radius: 0;
+            border: 0px solid black;
+        }
+    }
+
+.r::after {
+    animation-name: letter-r-after;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite; 
+}
+
+    @keyframes letter-r-after {
+        0% {
+            width: 0px;
+            height: 0px;
+            border-radius: 0;
+            border-width: 0;
+
+        }
+
+        50% {
+            width: 30px;
+            height: 20px;
+            border-radius: 0 12.5px 0 0;
+            border-width: 10px 10px 0 0;
+
+        }
+
+        100% {
+            width: 0px;
+            height: 0px;
+            border-radius: 0;
+            border-width: 0;
+        }
+    }
+
+/* N */
+
+
+.n {
+    animation-name: letter-n;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+    @keyframes letter-n {
+        0% {
+            width: 0px;
+            height: 0px;
+            border-width: 0;
+        }
+
+        50% {
+            width: 30px;
+            height: 50px;
+            border-width: 0 10px 0 10px;
+        }
+
+        100% {
+            width: 0px;
+            height: 0px;
+            border-width: 0;
+        }
+    }
+
+
+.n::before {
+    animation-name: letter-n-before;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite; 
+}
+
+
+    @keyframes letter-n-before {
+        0% {
+            width: 0px;
+            height: 0px;
+            transform-origin: 0;
+            transform: rotate(0deg);
+        }
+
+        50% {
+            width: 10px;
+            height: 58px;
+            transform: rotate(-43deg);
+            transform-origin: 5px 14px 0;
+        }
+
+        100% {
+            width: 0px;
+            height: 0px;
+            transform-origin: 0;
+            transform: rotate(0deg);
+        }
+    }
+
+
+    /* I */
+.i {
+    animation-name: letter-i;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+    @keyframes letter-i {
+        0% {
+            width: 0px;
+            height: 0px;
+            border-width: 0;
+        }
+
+        50% {
+            width: 30px;
+            height: 30px;
+            border-width: 10px 0 10px 0;
+        }
+
+        100% {
+            width: 0px;
+            height: 0px;
+            border-width: 0;
+        }
+    }
+
+.i::before {
+    animation-name: letter-i-before;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite; 
+}
+
+    @keyframes letter-i-before {
+        0% {
+            width: 0px;
+            height: 0px;
+        }
+
+        50% {
+            width: 10px;
+            height: 30px;
+        }
+
+        100% {
+            width: 0px;
+            height: 0px;
+        }
+    }
+
+
+    /* M */
+.m {
+    animation-name: letter-m;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+    @keyframes letter-m {
+        0% {
+            width: 0px;
+            height: 0px;
+            
+        }
+
+        50% {
+            width: 30px;
+            height: 50px;
+            border-width: 0 10px 0 10px;
+        }
+
+        100% {
+            width: 0px;
+            height: 0px;
+        }
+    }
+
+
+.t {
+    animation-name: letter-t;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+    @keyframes letter-t {
+        0% {
+            width: 0px;
+            height: 0px;
+            border-width: 0;
+            
+        }
+
+        50% {
+            width: 40px;
+            height: 40px;
+            border-width: 10px 0 0px 0;
+        }
+
+        100% {
+            width: 0px;
+            height: 0px;
+            border-width: 0;
+        }
+    }
+
+.t::before {
+    animation-name: letter-t-before;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+    @keyframes letter-t-before {
+        0% {
+            width: 0px;
+            height: 0px;
+            
+        }
+
+        50% {
+            width: 10px;
+            height: 40px;
+        }
+
+        100% {
+            width: 0px;
+            height: 0px;
+
+        }
+    }
+
+/* O */
+.o {
+    animation-name: letter-o;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+    @keyframes letter-o {
+        0% {
+            width: 0px;
+            height: 0px;
+            border-width: 0;
+        }
+
+        50% {
+            width: 30px;
+            height: 30px;
+            border: 10px solid red;
+        }
+
+        100% {
+            width: 0px;
+            height: 0px;
+            border-width: 0;
+        }
+    }
+
+
+
+
